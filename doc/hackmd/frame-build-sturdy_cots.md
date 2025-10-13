@@ -1,3 +1,4 @@
+[![hackmd-github-sync-badge](https://hackmd.io/hFu-JuHMTZuSDLUrKT-LZQ/badge)](https://hackmd.io/hFu-JuHMTZuSDLUrKT-LZQ)
 # `frame-build-sturdy_cots` Trolley with 17x17 profile and COTS parts
 :::info
 (c) Holger Kienle  
