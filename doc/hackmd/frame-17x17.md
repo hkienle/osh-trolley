@@ -1,6 +1,4 @@
----
-- :eyes:Click to render: https://hackmd.io/lQmxAfu7TOy5vR5IXOEQ3w
----
+[![hackmd-github-sync-badge](https://hackmd.io/lQmxAfu7TOy5vR5IXOEQ3w/badge)](https://hackmd.io/lQmxAfu7TOy5vR5IXOEQ3w)
 # `frame-17x17` Frame with `s`=17mm
 :::info
 (c) Holger Kienle  
