@@ -1,6 +1,5 @@
----
-- :eyes:Click to render: https://hackmd.io/vnldW8TBSnO_LEm4tbxbGQ
----
+[![hackmd-github-sync-badge](https://hackmd.io/vnldW8TBSnO_LEm4tbxbGQ/badge)](https://hackmd.io/vnldW8TBSnO_LEm4tbxbGQ)
+
 # `frame-design`
 :::info
 (c) Holger Kienle  
@@ -103,7 +102,30 @@ Beams are connected with fasteners via Gridbeam-style *tri-joints* ("3D") and (o
 
 The stability and right-angles of the frame are derived from the 3D/tri-joints.
 
-### Fasteners (`fastener-mX`)
+## Fasteners (`fastener-mX`)
+
+### Spec
+- `fastener-mX`
+    - :exclamation: do not mix `mX`
+    - `screw-mX` [DIN 912 cylinder head screw](/@hkienle/std-din-912) (:de: Zylinderkopfschraube)
+        - Length (`screw-mX-height`): >= `s`+2*`washer-mX-height`+`nut-mX-height`
+    - `nut-mX` [DIN 934 hexagon nut](/@hkienle/std-din-934)  
+      | `nut-mX-flat` [DIN 439 low profile hexagon nut](/@hkienle/std-din-934)
+    - `washer-mX`
+        - :monkey: OK, but discouraged: DIN 912 (both form A and B)
+            - too flimsy, both OD and height
+        - `washer-mX-dia`
+        - :owl: recommended: OD of washer as near as possible to `s`(e.g., 16mm)
+        - :exclamation: OD of washer <= `s`
+### Notes for spec
+- `L`: It may not be possible to select a screw length `L` that perfectly matches the suggested length.
+    - Decide whether to got a bit shorter or longer.
+        - If you go a **bit shorter**, tightening the nut may squish the material and you end up with a perfect length.
+    - If you go a **bit longer**, it may open up the possibility to have 2 nuts at the end (for secure locking).
+    - If the screw is **too long** it has an unpleasant esthetics and the user may scratch themselves when handling the frame.
+- `washer-mX-dia`: The softer the wood, the more important becomes a washer with larger OD to better distribute the load and to not dent/squish the beams when tightening the nut.
+
+## Matching beams with fasteners
 
 The diameter/strength of the machine screws must match the sturdiness of the beams (parameter `s`).
 
