@@ -1,3 +1,4 @@
+[![hackmd-github-sync-badge](https://hackmd.io/rrkwL7BRTSuisbxxOud2xg/badge)](https://hackmd.io/rrkwL7BRTSuisbxxOud2xg)
 # `frame-proto` Prototype of frame
 :::info
 (c) Holger Kienle  
