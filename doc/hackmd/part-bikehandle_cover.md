@@ -12,6 +12,9 @@ For a typical bike, the metal pipe where the handlebars are mounted has a diamet
 - metal pipe: $\pi*22mm \simeq 69mm$
 - 17x17 frame: $4*17mm = 68mm$
 
+![image](https://hackmd.io/_uploads/BJy-tZhaxe.png =x200)  
+*Measuring a typical bike handle*
+
 ## Constraints
 - :exclamation: 17x17 frame only
 - optional part
@@ -46,6 +49,9 @@ For a typical bike, the metal pipe where the handlebars are mounted has a diamet
 
 ![image](https://hackmd.io/_uploads/ryyoFw2jgx.png =x200)  
 *Product image. End caps are not needed.*
+
+![image](https://hackmd.io/_uploads/Syfgdb3pll.png =x200)  
+*Part with `frame-17x17`-beam*
 
 ### :flag-de: Amazon
 - :question: not tested
