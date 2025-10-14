@@ -4,6 +4,7 @@
 (c) Holger Kienle  
 License (if not stated otherwise): [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
 :::
+
 :::success
 :book: Study the [generic frame design](/@kienle/frame-design) before this instantiation of the design.
 :::
@@ -17,19 +18,19 @@ License (if not stated otherwise): [CC BY-SA](https://creativecommons.org/licens
     - :owl: recommended: M4
 
 ### Frame dimensions
-Note that the frame dimensions differ from trolley's dimensions, mainly because it misses the axle mount.
+Note that the frame dimensions differ from trolley's dimensions, mainly because it misses the [frame-wheel_mount](/@hkienle/frame-wheel_mount/).
 - `frame-width`: 340mm (corresponds to `beam-20`)
 - `frame-depth`: 255mm (corresponds to `beam-15`)
 - `frame-height`: 901mm (corresponds to `beam-51`+`beam-2`)
 
-### Beam length
+### Beam lengths
 - `beam-N` (11x)
     - :bulb:`N`: To fully specify each beam, it is sufficient to give its length as the number of segments.
 
 For convenience, the beams' length is also given in mm below.
 
 :::warning
-Each unique name for a beams denotes a unique hole pattern. Thus, for example ![](https://img.shields.io/badge/1x-handle-light.svg) differs from ![](https://img.shields.io/badge/1x-bag__support-lightblue.svg), even though they have the same lengths.
+Each unique name for a beams may denote a unique hole pattern. Thus, for example ![](https://img.shields.io/badge/1x-handle-light.svg) differs from ![](https://img.shields.io/badge/1x-bag__support-lightblue.svg), even though they have the same lengths.
 :::
 
 #### Minimal frame
@@ -46,6 +47,26 @@ Each unique name for a beams denotes a unique hole pattern. Thus, for example ![
 #### Optional beams
 - `beam-20`: ![](https://img.shields.io/badge/1x-platform--top--middle-lightblue.svg) Length: 340mm
 - `beam-20` ![](https://img.shields.io/badge/1x-bag__support-lightblue.svg) Length: 340mm
+
+### Beam hole patterns
+```
+                   1                   2   5
+ 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 … 0 1
+ . . . . . . ○ ∥ . . . . . . . . . . . . … ○ ∥ leg-back
+ . ∥ ○ . . . . . . . . . . . . . . ○ ∥ .       platform-top-front
+ ○ ∥ . . . . . . . . . . . . . . . . ∥ ○       platform-top-back
+ ○ ∥ . . . . . . . . . . . . . . . . ∥ ○       handle
+ ○ ∥ . . . . . . . . . . . . . . . . ∥ ○       platform-top-iddle (OPT)
+ ○ ∥ . . . . . . . . . . . . . . . . ∥ ○       bag_support (OPT)
+ ○ ∥ . . . . . . . . . . . ∥ ○                 platform-side
+ ○ ∥ . . . . . . .                             leg-front
+ ○ ∥                                           handle-joint
+
+ ○ horizontal hole
+ ∥ vertical hole
+ . no hole
+```
+See [beam-hole_pattern](/@hkienle/beam-hole_pattern) for further explanations.
 
 ## :star: Customizations
 
