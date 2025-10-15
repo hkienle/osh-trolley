@@ -1,3 +1,4 @@
+[![hackmd-github-sync-badge](https://hackmd.io/LxvfIL0qTx62NzCIM-xKZg/badge)](https://hackmd.io/LxvfIL0qTx62NzCIM-xKZg)
 # `bag_platform` Support platform for the shopping bag
 :::info
 (c) Holger Kienle  
