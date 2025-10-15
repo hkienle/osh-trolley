@@ -22,7 +22,8 @@ License (if not stated otherwise below):
 ![](https://img.shields.io/badge/1x-platform--top--middle-lightblue.svg)
 ![](https://img.shields.io/badge/1x-bag__support-lightblue.svg)
 - `board`, optional:
-![](https://img.shields.io/badge/1x-platform-lightblue.svg)
+![](https://img.shields.io/badge/1x-bag__platform-lightblue.svg)
+- :owl: recommended: To support a bag more securely, have either a board (![](https://img.shields.io/badge/1x-bag__platform-lightblue.svg)) or an extra beam (![](https://img.shields.io/badge/1x-platform--top--middle-lightblue.svg)).
 ---
 - `fastener-mX`: `nut-mX` `bolt-mX` `washer-mX`
 - :owl: recommended: M4 (`fastener-m4`), M5 (`fastener-m5`), M6 (`fastener-m6`)
@@ -108,7 +109,7 @@ The stability and right-angles of the frame are derived from the 3D/tri-joints.
 - `fastener-mX`
     - :exclamation: do not mix `mX`
     - `screw-mX` [DIN 912 cylinder head screw](/@hkienle/std-din-912) (:de: Zylinderkopfschraube)
-        - Length (`screw-mX-height`): >= `s`+2*`washer-mX-height`+`nut-mX-height`
+        - Length (`screw-mX-height`): >= 2*`s`+2*`washer-mX-height`+`nut-mX-height`
     - `nut-mX` [DIN 934 hexagon nut](/@hkienle/std-din-934)  
       | `nut-mX-flat` [DIN 439 low profile hexagon nut](/@hkienle/std-din-934)
     - `washer-mX`
@@ -176,8 +177,16 @@ which sits below the handle and provides attachment for the bag.
 - Without optional beam
 ![](https://img.shields.io/badge/1x-platform--top--middle-lightblue.svg).
 
-
 ![2025-04-17_16-34-29_screenshot](https://hackmd.io/_uploads/SkGbmHEsxe.png)
+
+### Beam hole patterns
+
+True Gridbeam beams have a full hole pattern for maximum flexibility and repurposing of beams. This means that many holes are not used for a particular assembly. Potential drawsbacks are less beam strength, dirt getting into holes, and a more technical-looking aesthetics.
+
+In contrast, this design only mandates holes that are occupied by screws and hence for each beam a hole pattern must be specified.
+
+Since the hole patterns for all beams are not identical depending on the frame profile, the hole pattern is given in the instantiated designs, for example [frame-17x17](/@hkienle/frame-17x17#Beam-hole-patterns).
+(Actually, for the current designs only **one** beam type has a different pattern depending on the frame profile: ![](https://img.shields.io/badge/2x-leg--back-light.svg).)
 
 ### Prototype
 See [frame-proto](@hkienle/frame-proto/).
