@@ -36,7 +36,7 @@ The frame is assembled from
 - `beam`: Gridbeam *beams*
 - `fastener-mX`: Metric (DIN/ISO) machine-type fasteners
 
-### Beams (`beam`)
+### Beams (`beam`, `beam-N` `beam-SxS-N`)
 ![image](https://hackmd.io/_uploads/Sy6XRz2jgg.png =x200)  
 *Single beam with full hole pattern, AI generated*
 
@@ -61,7 +61,7 @@ The short-form for`SxS` is `s`.
 
 #### A beam is made up of segments
 
-A beam can be thought of as a string of individual segments. Each segment has length `s`. The shortest beam has 1 segment, resulting in a cube (SxSxS).
+A beam can be thought of as a string of individual segments `N`. Each segment has length `s`. The shortest beam has 1 segment, resulting in a cube (SxSxS).
 ```
               _________
              /        /|
@@ -69,12 +69,14 @@ A beam can be thought of as a string of individual segments. Each segment has le
            /________/  |
           |        |   |
   S=17mm  |        |   |
-          |        |  /  1 segment of 17mm
+          |        |  /  1 segment of 17mm (N=1)
           |________|/
           
            S=17mm
 ```
-Strictly speaking, this "deteriorated" beam is not an offical Gridbeam beam. 
+:::warning
+:judge: Strictly speaking, this "deteriorated" beam is not an offical Gridbeam beam. 
+:::
 
 A true Gridbeam beam has 2 or more segments.
 ```
@@ -83,15 +85,16 @@ A true Gridbeam beam has 2 or more segments.
  /        /        / |
 /________/________/  |
 |        |        |  |
-|        |        | /  2 segment of 17mm each
+|        |        | /  2 segment of 17mm each (N=2)
 |________|________|/
 ```
 
 :::success
-:bulb::straight_ruler: The size of beam can be specified by giving
-  1. `s` (e.g. `s`=17mm)
-  2. `N`: number of segments (e.g., 2)
-For the example, the beam has dimensions 17x17x34mm.
+:bulb::straight_ruler: The size of a beam can be specified by giving
+  1. `s` (e.g., `s`=17mm)
+  2. `N`: number of segments (e.g., 10)
+
+For the example above, the beam has dimensions 17x17x170mm. If the profile is clear from context, this beam can be denotes as `beam-10`.
 :::
 
 ### Tri-joints
