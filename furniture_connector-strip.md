@@ -5,6 +5,10 @@
 License (if not stated otherwise): [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
 :::
 
+![image](https://hackmd.io/_uploads/Sk-qu-bkWl.png =250x)
+![image](https://hackmd.io/_uploads/Sk4rOWbyWl.png =250x)  
+*Left: Furniture connector strip. Right: Strips mounted at frame*
+
 ## Spec
 - Length: 46mm-56mm
 - Width: 13mm-20mm AND ~<`s`
