@@ -1,8 +1,13 @@
+[![hackmd-github-sync-badge](https://hackmd.io/SEjIPX-9TqWD6zDuZb8GNQ/badge)](https://hackmd.io/SEjIPX-9TqWD6zDuZb8GNQ)
 # `furniture_connector-strip`: Metal strip for wheel mount
 :::info
 (c) Holger Kienle  
 License (if not stated otherwise): [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
 :::
+
+![image](https://hackmd.io/_uploads/Sk-qu-bkWl.png =250x)
+![image](https://hackmd.io/_uploads/Sk4rOWbyWl.png =250x)  
+*Left: Furniture connector strip. Right: Strips mounted at frame*
 
 ## Spec
 - Length: 46mm-56mm
