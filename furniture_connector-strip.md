@@ -1,3 +1,4 @@
+[![hackmd-github-sync-badge](https://hackmd.io/SEjIPX-9TqWD6zDuZb8GNQ/badge)](https://hackmd.io/SEjIPX-9TqWD6zDuZb8GNQ)
 # `furniture_connector-strip`: Metal strip for wheel mount
 :::info
 (c) Holger Kienle  
