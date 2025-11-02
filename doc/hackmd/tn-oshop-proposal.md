@@ -6,7 +6,7 @@
 Text und alle selbst erstellten Bilder sind unter CC BY-SA 4.0.
 :::
 
-# Einkaufstrolley (OSH-Prototyp)
+# `tn-oshop-proposal` Einkaufstrolley (OSH-Prototyp)
 
 **[Einreichung für KONSTRUKTIV!: Der Open Hardware Wettbewerb](https://www.oshop-network.de/termine/open-hardware-wettbewerb/)**
 
