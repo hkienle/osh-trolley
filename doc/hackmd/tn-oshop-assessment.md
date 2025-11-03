@@ -1,9 +1,14 @@
-# `tn-oshop-assessment` OSH Einkaufstrolley: Bewertungskriterien Prototyp
-
+:::success
+:handshake: Gerne Kommentieren: Rechts oben ![image](https://hackmd.io/_uploads/rJFniJu1eg.png =40x) anklicken. Oder Text markieren, dann kommt ein Popup.
+:::
 :::info
 (c) Holger Kienle
 License (if not stated otherwise below): [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
 :::
+
+[![hackmd-github-sync-badge](https://hackmd.io/S7o1KkemS8yVbEgkoFQbVw/badge)](https://hackmd.io/S7o1KkemS8yVbEgkoFQbVw)
+
+# `tn-oshop-assessment` OSH Einkaufstrolley: Bewertungskriterien Prototyp
 
 Basierend auf den Bewertungskriterien für die Jury werden die gewählten Ansätze reflektiert und der aktuelle Stand der Entwicklung des **OSH Einkaufstrolley** dargestellt.
 
@@ -92,5 +97,5 @@ Hauptsächliche Treiber die das Projekt nach vorne gebracht habe waren (leider) 
 
 ## Referenzen
 
-- [Einreichung zum oSHOP-Wettbewerb](@hkienle/tn-oshop-proposal)
+- [Einreichung zum oSHOP-Wettbewerb](/@hkienle/tn-oshop-proposal)
 
