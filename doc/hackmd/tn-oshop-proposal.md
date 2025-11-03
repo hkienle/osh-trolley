@@ -6,6 +6,8 @@
 Text und alle selbst erstellten Bilder sind unter CC BY-SA 4.0.
 :::
 
+[![hackmd-github-sync-badge](https://hackmd.io/VEaCQhgHR3WzXLRYaWCWmw/badge)](https://hackmd.io/VEaCQhgHR3WzXLRYaWCWmw)
+
 # `tn-oshop-proposal` Einkaufstrolley (OSH-Prototyp)
 
 **[Einreichung für KONSTRUKTIV!: Der Open Hardware Wettbewerb](https://www.oshop-network.de/termine/open-hardware-wettbewerb/)**
