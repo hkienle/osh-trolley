@@ -1,5 +1,5 @@
 [![hackmd-github-sync-badge](https://hackmd.io/DLwY7t2YQ-CTaPpc2NuazA/badge)](https://hackmd.io/DLwY7t2YQ-CTaPpc2NuazA)
-# `frame-13x13` Frame with 13x13 profile
+# `frame-13x13` Frame with `s`=13mm
 :::info
 (c) Holger Kienle  
 License (if not stated otherwise): [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
