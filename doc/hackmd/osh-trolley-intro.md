@@ -1,3 +1,5 @@
+[![hackmd-github-sync-badge](https://hackmd.io/s1F09AVITRW1JFesKfud9A/badge)](https://hackmd.io/s1F09AVITRW1JFesKfud9A)
+
 # `osh-trolley-intro` OSH Shopping Trolley
 
 :::info
