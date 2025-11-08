@@ -1,11 +1,15 @@
 [![hackmd-github-sync-badge](https://hackmd.io/vnldW8TBSnO_LEm4tbxbGQ/badge)](https://hackmd.io/vnldW8TBSnO_LEm4tbxbGQ)
 
-# `frame-design`
+# `frame-design` Gridbeam-inspired frame
 :::info
 (c) Holger Kienle  
 License (if not stated otherwise below):
 [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
 :::
+
+![](https://hackmd.io/_uploads/rkJoMHVixx.png =x200)
+![](https://hackmd.io/_uploads/HkxG_Qnjex.png =x200)  
+*Left: Frame made up of beams. Right: Joint for connecting beams.*
 
 ## TLDR Parts
 - `beam` (11x):
