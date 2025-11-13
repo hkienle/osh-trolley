@@ -1,4 +1,7 @@
+[![hackmd-github-sync-badge](https://hackmd.io/1O0wGYTsTzKEfpzpUm2uEQ/badge)](https://hackmd.io/1O0wGYTsTzKEfpzpUm2uEQ)
+
 # `reveng-cheap_trolley` Reverse engineering of a cheaply produced trolley frame
+
 :::info
 (c) Holger Kienle  
 License (if not stated otherwise): [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
